@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id = "match">
+        <header class="page-header wrapper">
+            <a href="Main.html"><img class ='logo' src="../Images/webIcon.png" alt="아이콘"><span>SeasonFestival</span></a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="Search.html">Search</a></li>
+                    <li><a href="Match.html">Match</a></li>
+                    <li><a href="Inquiry.html">Inquiry</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="match-content wrapper">
+            <div class="match-option">
+                <div class="option-content">
+                    <div class="option-item">
+                        <span>일정:&nbsp;</span><input type="date"><span>&nbsp;-&nbsp;</span><input type="date">
+                    </div>
+                    <div class="option-item">
+                        <span>지역:&nbsp;</span>
+                        <select>
+                            <option value="all">전체</option>
+                            <option value="1">서울</option>
+                            <option value="2">인천</option>
+                            <option value="3">경기</option>
+                            <option value="4">대전</option>
+                            <option value="5">대구</option>
+                            <option value="6">부산</option>
+                            <option value="7">강원</option>
+                            <option value="8">광주</option>
+                            <option value="9">울산</option>
+                            <option value="10">경상</option>
+                            <option value="11">전라</option>
+                            <option value="12">부산</option>
+                            <option value="13">제주</option>   
+                        </select>
+                    </div>
+                    <div class="option-item">
+                        <span>카테고리:&nbsp;</span>
+                        <select>
+                            <option value="all">전체</option>
+                            <option value="1">꽃</option>
+                            <option value="2">물</option>
+                            <option value="3">단풍</option>
+                            <option value="4">눈</option>
+                            <option value="5">불꽃</option>
+                            <option value="6">빛</option>
+                            <option value="7">푸드</option>
+                            <option value="8">음악</option>   
+                        </select>
+                    </div>
+                </div>
+                <div class="option-content">
+                    <div class="option-item">
+                        <span>예산:&nbsp;</span>
+                        <input type="number" min="0">
+                    </div>
+                    <div class="option-item">
+                        <span>개수:&nbsp;</span>
+                        <input type="number" min="0">
+                    </div>
+                </div>
+            </div>
+            <button><span>적용하기</span></button>
+        </div>
+        <div class="match-result wrapper">
+            <p>내용을 입력해주세요.</p>
+        </div>
+    </div>
+</body>
+</html>
