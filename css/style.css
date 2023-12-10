@@ -445,6 +445,8 @@ th,td {
     width: 400px;
     height: 40px;
     margin-top: -20px;
+    font-size: 20px;
+    padding-left: 10px;
 }
 .login-input span {
     font-size: 15px;
