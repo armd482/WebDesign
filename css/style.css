@@ -58,6 +58,7 @@ iframe {
 }
 .nav li {
     margin-left: 36px;
+    font-weight: bold;
 }
 .nav a {
     color: black;
