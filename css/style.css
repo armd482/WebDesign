@@ -39,7 +39,7 @@ iframe {
 }
 .page-header span {
     font-size: 40px;
-    font-weight: bold;
+    font-family: 'Gasoek One', sans-serif;
     color: black;
     position: relative;
     top:-20px;
